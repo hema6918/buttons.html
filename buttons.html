@@ -1,0 +1,73 @@
+<style>
+    .subscribe-button{
+        background-color:#d80b0b;
+        color:white;
+        border:none;
+        height:30px;
+        width:90px;
+        border-radius:2px;
+        margin-right: 8px;
+        cursor:pointer;
+        transition: opacity 1s;
+        }
+    .subscribe-button:hover {
+        opacity:0.8;
+        background-color: green;
+        color:palevioletred;
+
+    }
+    .subscribe-button:active{
+        opacity: 0.5;
+        background-color: blue;
+        color:white;
+    }
+  
+    
+    .join-button{
+        background-color:white;
+        border-color:rgb(71, 71, 162);
+        border-width:1px;
+        color:rgb(71, 71, 162);
+        height:30px;
+        width:62px;
+        border-radius:2px;
+        cursor:pointer;
+        transition: background-color 1s,color 2s;
+      
+        }
+    .join-button:hover{
+        background-color:rgb(71, 71, 162) ;
+        color:white;
+        transition:opacity 1s;
+        transition:background-color 5s,color 1s;
+           }
+    .join-button:active{
+        opacity:5s;
+    }
+    .tweet-button{
+        height:36px;
+        width:70px;
+        background-color:rgb(54, 174, 222);
+        border-radius:18px;
+        color:white;
+        border:none;
+        font-weight: bold;
+        font-size:15;
+        cursor:pointer;
+        margin-left:8px;
+        transition: box-shadow 0.15s;
+    }
+    .tweet-button:hover{
+        box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+    }
+</style>
+<button class="subscribe-button">
+    SUBSCRIBE
+    
+</button>
+<button class="join-button">
+    JOIN
+</button>
+<button class="tweet-button">
+    Tweet
+</button>
